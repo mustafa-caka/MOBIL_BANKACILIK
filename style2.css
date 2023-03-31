@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffb300;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container .box input, .container .box select, .container .box button {
+  width: 400px;
+  height: 2.2rem;
+  margin-top: 1rem;
+  display: block;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.container .banka {
+  width: 400px;
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.container .bakiye, .container #sonucKredi, .container #kredi, .container #topKredi {
+  width: 400px;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  background-color: transparent;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  font-size: 20px;
+}
+.container hr {
+  border: 5px solid white;
+}
+.container .uyari img {
+  display: none;
+}
+.container .kayit {
+  color: white;
+  justify-content: center;
+}
+.container .alert {
+  display: none;
+}
+.container .button-box {
+  display: flex;
+  justify-content: space-between;
+}
+.container #girisSayfasi {
+  width: 100px;
+}
+.container #krediSayfasi {
+  width: 100px;
+}/*# sourceMappingURL=style2.css.map */
